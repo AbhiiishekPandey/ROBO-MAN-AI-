@@ -1,9 +1,9 @@
 import React, { useState, useEffect } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
 import Button from '../components/Button';
-
 import { Menu, X } from 'lucide-react';
 import { Link } from 'react-router-dom';
+import ggiLogo from '../assets/ggi-naac-logo.jpg';
 
 const Navbar = () => {
     const [isScrolled, setIsScrolled] = useState(false);
@@ -24,16 +24,19 @@ const Navbar = () => {
     ];
 
     return (
-        <nav className={`fixed top-0 left-0 right-0 z-50 transition-all duration-300 ${isScrolled ? 'glass py-2' : 'bg-transparent py-6'}`}>
+        <nav className={`fixed top-0 left-0 right-0 z-50 transition-all duration-300 ${isScrolled ? 'glass py-2' : 'bg-transparent py-4'}`}>
             <div className="container mx-auto px-6 flex justify-between items-center">
 
                 {/* Left: Logo */}
                 <div className="flex-shrink-0 flex items-center">
-                    <a href="#" className="flex flex-col group">
-                        <h1 className="font-orbitron font-bold text-2xl tracking-[0.2em] text-white group-hover:text-neon-blue transition-colors">
-                            ROBOMAN<span className="text-neon-blue">AI</span>
-                        </h1>
-                        <span className="text-[10px] tracking-[0.4em] text-gray-500 uppercase">2026</span>
+                    <a href="#" className="flex items-center gap-3 group">
+                        <img
+                            src={ggiLogo}
+                            alt="GGI NAAC A+"
+                            className="h-10 md:h-12 w-auto object-contain brightness-95 group-hover:brightness-110 transition-all duration-300 mix-blend-screen"
+                        />
+                        <div className="hidden md:flex flex-col">
+                        </div>
                     </a>
                 </div>
 

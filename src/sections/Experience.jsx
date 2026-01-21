@@ -5,10 +5,17 @@ import { Zap, Music, Cpu, Utensils } from 'lucide-react';
 const experiences = [
     {
         id: 1,
-        title: 'Laser Show',
-        description: 'A spectacular display of lights and lasers synchronized to futuristic beats.',
-        icon: <Zap size={60} />,
+        title: 'Drone Show',
+        description: 'Synchronized drone swarms creating mesmerizing patterns in the night sky.',
+        icon: <Cpu size={60} />,
         color: 'bg-neon-blue'
+    },
+    {
+        id: 5,
+        title: 'Laser Show',
+        description: 'High-intensity laser beams synchronized to futuristic beats.',
+        icon: <Zap size={60} />,
+        color: 'bg-neon-green'
     },
     {
         id: 2,
@@ -17,13 +24,7 @@ const experiences = [
         icon: <Music size={60} />,
         color: 'bg-neon-purple'
     },
-    {
-        id: 3,
-        title: 'Project Expo',
-        description: 'Showcase of the most innovative AI and Robotics projects.',
-        icon: <Cpu size={60} />,
-        color: 'bg-neon-green'
-    },
+
     {
         id: 4,
         title: 'Global Food Court',

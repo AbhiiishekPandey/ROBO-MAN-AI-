@@ -47,10 +47,18 @@ const categories = [
     },
     {
         id: 6,
+        title: 'PROJECT EXPO',
+        slug: 'project-expo',
+        icon: <Cpu size={40} className="text-orange-500" />,
+        events: ['Technical Project Display'],
+        color: 'from-orange-500/20 to-red-900/20'
+    },
+    {
+        id: 6,
         title: 'GAMES',
         slug: 'games',
         icon: <Gamepad2 size={40} className="text-red-500" />,
-        events: ['BGMI Contest', 'Chess', 'Badminton', 'Table Tennis'],
+        events: ['BGMI Contest'],
         color: 'from-red-500/20 to-red-900/20'
     }
 ];

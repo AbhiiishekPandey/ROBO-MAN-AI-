@@ -117,12 +117,12 @@ const EventDetail = () => {
                                         href={link.url}
                                         target="_blank"
                                         rel="noopener noreferrer"
-                                        className="block w-full"
+                                        className="block w-full group"
                                     >
-                                        <Button variant="glow" className="w-full flex items-center justify-center py-4 text-lg">
-                                            <span className="mr-2 text-sm md:text-base">{link.label}</span>
-                                            <ExternalLink size={20} />
-                                        </Button>
+                                        <div className="w-full flex items-center justify-center py-4 text-lg font-bold bg-gradient-to-r from-neon-blue to-cyan-400 text-black hover:from-white hover:to-gray-200 transition-all duration-300 shadow-[0_0_20px_rgba(0,243,255,0.4)] hover:shadow-[0_0_30px_rgba(255,255,255,0.6)] rounded-lg transform group-hover:-translate-y-1">
+                                            <span className="mr-3 tracking-wider">{link.label}</span>
+                                            <ExternalLink size={24} className="group-hover:translate-x-1 transition-transform" />
+                                        </div>
                                     </a>
                                 ))}
                             </div>
@@ -131,12 +131,12 @@ const EventDetail = () => {
                                 href={event.registrationLink}
                                 target="_blank"
                                 rel="noopener noreferrer"
-                                className="block w-full"
+                                className="block w-full group"
                             >
-                                <Button variant="glow" className="w-full flex items-center justify-center py-4 text-lg">
-                                    <span className="mr-2">Register Now</span>
-                                    <ExternalLink size={20} />
-                                </Button>
+                                <div className="w-full flex items-center justify-center py-4 text-lg font-bold bg-gradient-to-r from-neon-blue to-cyan-400 text-black hover:from-white hover:to-gray-200 transition-all duration-300 shadow-[0_0_20px_rgba(0,243,255,0.4)] hover:shadow-[0_0_30px_rgba(255,255,255,0.6)] rounded-lg transform group-hover:-translate-y-1">
+                                    <span className="mr-3 tracking-wider">Register Now</span>
+                                    <ExternalLink size={24} className="group-hover:translate-x-1 transition-transform" />
+                                </div>
                             </a>
                         )}
 

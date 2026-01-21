@@ -253,7 +253,7 @@ const Rulebook = () => {
                             className="group"
                         >
                             <button className="px-8 py-4 rounded-xl bg-neon-blue/10 hover:bg-neon-blue/20 border border-neon-blue/50 hover:border-neon-blue text-neon-blue hover:text-white transition-all duration-300 font-bold uppercase tracking-wider flex items-center shadow-[0_0_20px_rgba(0,243,255,0.1)] hover:shadow-[0_0_30px_rgba(0,243,255,0.3)]">
-                                <span className="mr-3">Open Universal Rulebook Drive</span>
+                                <span className="mr-3">RULEBOOK DRIVE</span>
                                 <ExternalLink size={20} className="group-hover:translate-x-1 transition-transform" />
                             </button>
                         </a>

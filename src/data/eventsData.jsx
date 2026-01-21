@@ -444,6 +444,72 @@ export const eventsData = [
         ]
     },
     {
+        id: 'project-expo',
+        title: 'PROJECT EXPO',
+        slug: 'project-expo',
+        tagline: 'Innovate. Build. Inspire.',
+        description: 'Showcase of the most innovative AI and Robotics projects. A platform for young innovators to present working models and advanced prototypes.',
+        icon: <Cpu size={40} className="text-orange-500" />,
+        color: 'orange-500',
+        gradient: 'from-orange-500 to-red-500',
+        subEvents: [
+            { name: 'Technical Project Display', desc: 'Working models in AI, Robotics, and Emerging Tech.' }
+        ],
+        rulebook: {
+            venue: 'Gulzar Group of Institutions',
+            generalRules: [
+                'Registration is mandatory via the official Google Form.',
+                'Deadline: 15th February 2026 (4:30 PM).',
+                'Late entries will not be accepted.',
+                'Shortlisted teams will be informed via email on 16th Feb 2026.',
+                'Judges’ decisions are final and binding.',
+                'Strict adherence to the event theme is mandatory.',
+                'Any unfair practice will result in disqualification.'
+            ],
+            sections: [
+                {
+                    title: 'PROJECT REQUIREMENTS',
+                    format: ['Team Size: 1–4 members', 'Time: 9:00 AM – 1:00 PM'],
+                    rules: [
+                        'Must be a working model OR detailed functional prototype.',
+                        'Project must be self-contained.',
+                        'Power supply will be provided.',
+                        'Short presentation required (5–7 minutes).'
+                    ]
+                },
+                {
+                    title: 'ELIGIBILITY',
+                    rules: [
+                        'School Students (Class 10 onwards): Medical, Non-Medical, Commerce, Arts',
+                        'Engineering Students',
+                        'Diploma Students',
+                        'Allied Health Sciences',
+                        'Professional Studies'
+                    ]
+                },
+                {
+                    title: 'CODE OF CONDUCT',
+                    rules: [
+                        'Maintain discipline and professionalism.',
+                        'Respect judges, organizers, and fellow participants.',
+                        'Any misconduct may lead to removal from the event.'
+                    ]
+                }
+            ],
+            coordinators: {
+                teachers: [
+                    { name: 'Ashish Bhateja', phone: '9417732687' }
+                ],
+                students: [
+                    { name: 'Satya Narayan', phone: '6239201097' }
+                ]
+            }
+        },
+        registrationLinks: [
+            { label: 'Register for Project Expo', url: 'https://docs.google.com/forms/d/e/1FAIpQLSdDLlDsF6E1rbolfcKaoFu1QQX9IkmxQkDajYWOiuRmtt2C0w/viewform' }
+        ]
+    },
+    {
         id: 'games',
         title: 'GAMES',
         slug: 'games',
@@ -453,16 +519,13 @@ export const eventsData = [
         color: 'red-500',
         gradient: 'from-red-600 to-orange-600',
         subEvents: [
-            { name: 'BGMI Contest', desc: 'Squad battle royale.' },
-            { name: 'Chess', desc: 'Master the board.' },
-            { name: 'Badminton', desc: 'Smash your way to victory.' },
-            { name: 'Table Tennis', desc: 'Fast-paced ping pong action.' }
+            { name: 'BGMI Contest', desc: 'Squad battle royale.' }
         ],
         rules: [
             'Fair play is mandatory. Cheating leads to immediate ban.',
             'Bring your own peripherals for e-sports (optional).',
             'Referees decision is final.',
-            'Standard tournament rules apply for all sports.'
+            'Standard tournament rules apply.'
         ],
         rulebook: {
             venue: 'Gulzar Group of Institutions',
@@ -489,38 +552,6 @@ export const eventsData = [
                         'Internet and device management are the player’s responsibility.'
                     ],
                     prizes: ['Winner team will receive a Winner Trophy.', 'Scoring and ranking system will be explained before the match.']
-                },
-                {
-                    title: 'BADMINTON',
-                    location: 'B Block – Ground Floor',
-                    rules: [
-                        'Matches may be Singles or Doubles depending on participation.',
-                        'Standard point system will be followed.',
-                        'Knockout format unless informed otherwise.',
-                        'Players must bring proper sports shoes.',
-                        'Referee’s decision will be final.'
-                    ]
-                },
-                {
-                    title: 'TABLE TENNIS',
-                    location: 'B Block – Ground Floor',
-                    format: ['Best of 3 sets'],
-                    rules: [
-                        'Matches may be Singles or Doubles.',
-                        'Standard point system applies.',
-                        'Illegal serve or misconduct may result in point loss or disqualification.',
-                        'Equipment provided by organizers must be handled carefully.'
-                    ]
-                },
-                {
-                    title: 'CHESS',
-                    location: 'B Block – Classroom (To be decided)',
-                    rules: [
-                        'Touch-move rule will be followed.',
-                        'Illegal move rules will be explained before the match.',
-                        'Checkmate decides the winner.',
-                        'Any disturbance or unfair play may lead to disqualification.'
-                    ]
                 }
             ],
             coordinators: {
@@ -529,14 +560,12 @@ export const eventsData = [
                     { name: 'JP Sir', phone: '8427203511' }
                 ],
                 students: [
-                    { name: 'Adarsh Kumar', phone: '6239985465' },
-                    { name: 'Ajaypal Singh', phone: '6239459392' }
+                    { name: 'Adarsh Kumar', phone: '6239985465' }
                 ]
             }
         },
         registrationLinks: [
-            { label: 'Register for BGMI', url: 'https://docs.google.com/forms/d/1Q6SZjjzqJZ9YribU6WyNaR3CdP7-sKE_IRYY9zTIuMc/preview' },
-            { label: 'Register for Sports (Badminton, TT, Chess)', url: 'https://docs.google.com/forms/d/1PTObJx8WI3WdtqqmU_OpBIxZ3jZNLMj4L_nMhDBUFt8/preview' }
+            { label: 'Register for BGMI', url: 'https://docs.google.com/forms/d/1Q6SZjjzqJZ9YribU6WyNaR3CdP7-sKE_IRYY9zTIuMc/preview' }
         ]
     }
 ];

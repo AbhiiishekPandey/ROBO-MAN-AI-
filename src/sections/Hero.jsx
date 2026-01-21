@@ -4,6 +4,8 @@ import { motion } from 'framer-motion';
 import HeroBackground from '../components/HeroBackground';
 import Button from '../components/Button';
 
+import ggiLogo from '../assets/ggi-naac-logo.jpg';
+
 const Hero = () => {
     return (
         <section className="relative w-full h-screen flex flex-col items-center justify-center overflow-hidden">
